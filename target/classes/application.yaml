@@ -1,6 +1,10 @@
 spring:
   application:
     name: course
+  ai:
+    openai:
+      api-key: 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
+
 logging:
   pattern:
     console: "%green(%d{HH:mm:ss.SSS}) %red{%thread} %blue{%-5level} %yellow{%logger{36}} - %msg%n"

@@ -1,4 +1,4 @@
-package com.ai.demo;
+package com.ai.ollama;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

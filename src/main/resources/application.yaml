@@ -1,6 +1,10 @@
 spring:
   application:
     name: course
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+
 logging:
   pattern:
     console: "%green(%d{HH:mm:ss.SSS}) %red{%thread} %blue{%-5level} %yellow{%logger{36}} - %msg%n"
