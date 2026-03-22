@@ -1,6 +1,17 @@
 spring:
   application:
     name: course
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: gemma3:1b
+    openai:
+      api-key: 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
+      chat:
+        options:
+          model: gpt-4o-mini
 logging:
   pattern:
     console: "%green(%d{HH:mm:ss.SSS}) %red{%thread} %blue{%-5level} %yellow{%logger{36}} - %msg%n"

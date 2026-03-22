@@ -1,13 +1,13 @@
-package com.ai.demo;
+package com.ai.ollama;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CourseApplication {
+public class OllamaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CourseApplication.class, args);
+		SpringApplication.run(OllamaApplication.class, args);
 	}
 
 }
